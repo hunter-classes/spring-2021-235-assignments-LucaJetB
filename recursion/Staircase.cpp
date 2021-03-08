@@ -16,6 +16,8 @@ int staircase(int n)
 
 int main()
 {
+  int fibtable[1000] {0};
+  std::cout << fibtable[576];
   std::cout << staircase(5) << std::endl;
   return 0;
 }
