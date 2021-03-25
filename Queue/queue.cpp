@@ -6,11 +6,15 @@ class Queue{
     int size = 0;
     std::vector<int> queue;
   public:
+    Queue();
     void enqueue(int num);
     void dequeue();
     bool isempty();
     int front();
 };
+
+Queue::Queue()
+{ }
 
 void Queue::enqueue(int num)
 {
