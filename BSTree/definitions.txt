@@ -1,0 +1,17 @@
+Definitions:
+-root, the root node of a tree that connects
+-parent, the node directly above a child node.
+-child, child of a parent node
+-ancestor, the nodes that are connected above a certain node
+-descendant, the nodes that are connected under a certain node
+-path, either the nodes or the edges to connect from one place to another
+-subtree, the tree that is created if you pretend a certain node is a root
+-height, the number of either edges or nodes going down the longest line
+-level, the horizontal level that the nodes appear on, root = level 0
+-siblings, nodes the share the same parent
+-cousins, nodes on the same level that don't share the same parent
+-balance, the idea about the number of nodes on the left vs right sides
+-fullness, you have as many children as you can from the top to bottom
+-Binary Tree, every node has 0, 1, or 2 children
+
+
